@@ -152,6 +152,10 @@ li span:after {
   font-size: 1em;
   margin-bottom: 10px;
 }
+.hero-des-list {
+  font-size: 1em;
+  color: (--light-text-color);
+}
 .learn-btn {
   padding: 5px 10px;
   background: var(--black-color);
@@ -393,6 +397,10 @@ li span:after {
   /* .nav-items {
     display: inline;
   } */
+
+  #hero-img {
+    display: none;
+  }
   .nav-logo {
     /* height: 100%; */
     /* float: center; */
@@ -443,12 +451,15 @@ li span:after {
     padding-right: 0px;
     /* font-weight: 100; */
   }
+  .hero-des-list {
+    font-size: 1.15em;
+  }
   .contact-hero {
     margin-top: 10vh;
   }
 
   .social-icons {
-    margin-top: 3em;
+    margin-top: 1.5em;
   }
   .footer-full {
     text-align: center;
@@ -513,7 +524,7 @@ li span:after {
     padding-right: 0px;
   }
   #hero-right {
-    display: none;
+    display: hidden;
   }
   #head-my-cert {
     margin-top: 20px;
